@@ -1,0 +1,13 @@
+.vs/
+*.suo
+*.user
+_ReSharper.*
+bin/
+obj/
+packages/
+*secret.json
+converted/
+origin-files/
+.local-chromium/
+logs/
+appsettings.json
