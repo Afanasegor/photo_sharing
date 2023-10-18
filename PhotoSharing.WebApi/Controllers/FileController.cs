@@ -17,11 +17,6 @@ namespace PhotoSharing.WebApi.Controllers
         private readonly IUserService _userService;
         private readonly IFriendshipService _friendshipService;
 
-        public FileController(IFriendshipService friendshipService)
-        {
-            _friendshipService = friendshipService;
-        }
-
         private readonly ILogger<FileController> _logger;
 
         public FileController(IFileService fileService, IUserService userService, ILogger<FileController> logger, IFriendshipService friendshipService)
